@@ -5,14 +5,24 @@
 <title>Assignment 2</title>
 
 <style>
-body {
-  background-color: #33ACFF;
-  font-family: Verdana;
+  body {
+    background-color: #33ACFF;
+    font-family: Verdana;
+    text-align: center;
+  }
+  ol{
+    font-family: Verdana;
+    text-align: center;
+    list-style-position: inside;
+  }
+  table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 </style>
-
 </head>
+
 <body>
 <!-- visible content goes here -->
 
@@ -30,6 +40,39 @@ alt="the G.O.A.T" width="600" height="400">
     <li>Click "View Source" to see the HTML code fo that site</li>
   </ol>
 </div>
+
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Weekend</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> <!--Row 1-->
+      <th>9:00am-12:00pm</th>
+      <td colspan="5"> Eat breakfast/ Read/ Invest in Stocks</td>
+      <td>Grocery shopping 9-10 (if needed)</td>
+    </tr>
+   <tr> <!--Row 2-->
+     <th>12:00pm-3:00pm</th>
+     <td colspan="6"> Eat lunch/ Hangout with friends/ work on business</td>
+   </tr>
+   <tr> <!--Row 3-->
+     <th>3:00pm-6:00pm</th>
+     <td colspan="6"> Play video games</td>
+   </tr>
+   <tr>  <!--Row 4-->
+     <th>6:00pm-Sleeptime</th>
+     <td colspan="6"> Eat dinner/ play video games/ talk to friends</td>
+   </tr>
+  </tbody>
+</table>
 
 
 </body>
